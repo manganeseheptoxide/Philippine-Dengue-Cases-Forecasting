@@ -17,6 +17,12 @@ This project models the time series data of dengue cases in Manila City and Quez
 ## Figures
 The following figures are included in the `Figures/` folder:
 
+- **STL Decomposition**:
+  - **STL Decomposition (Manila City)**
+    ![mnlstl](Figures/mnlstl.png)
+  - **STL Decomposition (Quezon City)**
+    ![qcstl](Figures/qcstl.png)
+    
 - **Model Fit on Test Set**:
   - **70-30 Split (Manila City)**
     ![mnl70](Figures/mnl70.png)
@@ -36,12 +42,6 @@ The following figures are included in the `Figures/` folder:
     ![mnlforecast](Figures/mnlforecast.png)
   - **Forecasted Dengue Cases (Quezon City)**
     ![qcforecast](Figures/qcforecast.png)
-
-- **STL Decomposition**:
-  - **STL Decomposition (Manila City)**
-    ![mnlstl](Figures/mnlstl.png)
-  - **STL Decomposition (Quezon City)**
-    ![qcstl](Figures/qcstl.png)
 
 ## Future Work
 - Improve feature engineering by incorporating weather and environmental data.
